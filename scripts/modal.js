@@ -63,6 +63,7 @@ let divRecoverButton = document.createElement('div')
     let recovButton = document.createElement('button')
         recovButton.classList.add('recovButton')
         recovButton.innerText = 'Enviar email'
+        recovButton.type = 'submit'
 
 
 //EXIT BUTTON EVENT LISTENER
