@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/globalStyles.css">
     <link rel="stylesheet" href="index.css">
     <title>Login</title>
 </head>
 <body>
+    <main class="pageContainer">
+        <section class="loginPage">
+            <section class="brandSection">
+                <div class="brandLogo">
+                    <h2>Logo da empresa</h2>
+                </div>
+                <div class="brandDescription">
+                    <h3>Descrição da empresa e produtos que ela irá oferecer.</h3>
+                </div>
+                <div class="brandSlogan">
+                    <h3>Slogan da empresa.</h3>
+                </div>
+            </section>
+
+            <section class="loginSection">
+                <div class="loginTitle">
+                    <h2>Faça login</h2>
+                </div>
+                <div class="loginEmail">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="loginEmail" placeholder="Digite seu email aqui...">
+                </div>
+                <div class="loginPassword">
+                    <label for="password">Senha</label><br>
+                    <input type="password" name="password" id="loginPassword">
+                </div>
+                <div class="forgotPassword">
+                    <span>Esqueceu a sua senha? <button class="buttonForgot">clique aqui.</button></span>
+                </div>
+                <div class="loginButton">
+                    <button class="buttonLogin">Entrar</button>
+                </div>
+            </section>
+
+        </section>
+
+
+    </main>
+
     <script src="/scripts/modal.js"></script>
 </body>
 </html>

@@ -1,1 +1,75 @@
-/* Desenvolva seu código aqui... */
+body {
+    background-color: var(--color-grey-1);
+}
+
+.pageContainer {
+    border: 1px white solid;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.loginPage {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+}
+
+.brandSection {
+    background-color: var(--color-grey-3);
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brandLogo {
+    border: 1px white solid;
+}
+
+.brandDescription {
+    border: 1px white solid;
+}
+
+.brandSlogan {
+    border: 1px white solid;
+}
+
+
+
+.loginSection {
+    background-color: var(--color-primary);
+    width: 60%;
+    height: 100%;
+}
+
+.loginTitle {
+    border: 1px white solid;
+    background-color: var(--color-grey-4);
+
+}
+
+.loginEmail {
+    border: 1px white solid;
+}
+
+.loginPassword {
+    border: 1px white solid;
+}
+
+.forgotPassword {
+    border: 1px white solid;
+}
+
+.buttonForgot {
+    background-color: var(--color-grey-4)
+}
+
+.loginButton {
+    border: 1px white solid;
+}
+
+.buttonLogin {
+    background-color: var(--color-grey-5);
+}
