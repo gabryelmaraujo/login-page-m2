@@ -6,6 +6,19 @@ label {
     display: block;
 }
 
+h1 {
+    font-weight: var(--h1-fontweight);
+    font-size: 28px;
+}
+
+h2{
+    font-weight: var(--h2-fontweight);
+}
+
+h3 {
+    font-weight: var(--h3-fontweight);
+}
+
 .pageContainer {
     width: 70vw;
     margin: 0 auto;
@@ -20,7 +33,7 @@ label {
 }
 
 .brandSection {
-    background-color: var(--color-grey-3);
+    background-color: var(--color-primary);
     width: 40%;
     height: 100%;
     display: flex;
@@ -34,6 +47,7 @@ label {
     margin-bottom: 60px;
 }
 
+
 .brandDescription {
     padding: 10px 0 10px 10px;
 }
@@ -45,7 +59,7 @@ label {
 
 
 .loginSection {
-    background-color: var(--color-primary);
+    background-color: var(--color-secundary);
     width: 60%;
     height: 100%;
     border-radius: 4px;
@@ -53,11 +67,15 @@ label {
 }
 
 .loginTitle {
-    background-color: var(--color-grey-4);
+    background-color: var(--color-primary-alpha1);
     width: 14vw;
     height: 5vh;
-    text-align: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginTitle h2 {
+    font-size: 18px;
 }
 
 .loginEmail {
@@ -73,6 +91,10 @@ label {
     border: none;
     background-color: var(--color-grey-5);
     padding-left: 1vw;
+    color: black;
+}
+#loginEmail::placeholder {
+    color: black;
 }
 
 .loginPassword {
@@ -96,7 +118,7 @@ label {
 }
 
 .buttonForgot {
-    background-color: var(--color-grey-4);
+    background-color: var(--color-primary-alpha2);
     border: none;
     width: 9vw;
     height: 3vh;
@@ -109,7 +131,7 @@ label {
 
 
 .buttonLogin {
-    background-color: var(--color-grey-4);
+    background-color: var(--color-primary-alpha2);
     width: 22vw;
     height: 5vh;
     border: none;
@@ -149,14 +171,14 @@ label {
     width: 3vw;
     height: 5vh;
     cursor: pointer;
-    background-color: var(--color-grey-4);
+    background-color: var(--color-primary-alpha1);
     border: none;
     border-radius: 6px;
     font-weight: 600;
 }
 .exitButton:hover{
-    border: 1px red solid;
-    color: red;
+    border: 2px black solid;
+
 
 }
 
@@ -179,6 +201,9 @@ label {
     height: 5vh;
     width: 20vw;
     padding-left: 1vw;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--color-grey-4);
 }
 
 .recoverButton {
@@ -191,7 +216,7 @@ label {
     height: 5vh;
     cursor: pointer;
     border: none;
-    background-color: var(--color-grey-4);
+    background-color: var(--color-primary-alpha1);
     border-radius: 6px;
 }
 .recovButton:hover {
