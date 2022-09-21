@@ -2,11 +2,15 @@ body {
     background-color: var(--color-grey-1);
 }
 
+label {
+    display: block;
+}
+
 .pageContainer {
-    border: 1px white solid;
-    width: 900px;
+    width: 70vw;
     margin: 0 auto;
     margin-top: 70px;
+    border-radius: 8px;
 }
 
 .loginPage {
@@ -22,18 +26,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 4px;
 }
 
 .brandLogo {
-    border: 1px white solid;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 60px;
 }
 
 .brandDescription {
-    border: 1px white solid;
+    padding: 10px 0 10px 10px;
 }
 
 .brandSlogan {
-    border: 1px white solid;
+    padding: 10px 0 10px 10px;
 }
 
 
@@ -42,34 +48,152 @@ body {
     background-color: var(--color-primary);
     width: 60%;
     height: 100%;
+    border-radius: 4px;
+    padding-top: 90px;
 }
 
 .loginTitle {
-    border: 1px white solid;
     background-color: var(--color-grey-4);
+    width: 14vw;
+    height: 5vh;
+    text-align: center;
 
 }
 
 .loginEmail {
-    border: 1px white solid;
+    margin-left: 9vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+#loginEmail {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--color-grey-5);
+    padding-left: 1vw;
 }
 
 .loginPassword {
-    border: 1px white solid;
+    margin-left: 9vw;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+#loginPassword {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--color-grey-5);
+    padding-left: 1vw;
 }
 
 .forgotPassword {
-    border: 1px white solid;
+    margin-left: 9.3vw;
+
 }
 
 .buttonForgot {
-    background-color: var(--color-grey-4)
+    background-color: var(--color-grey-4);
+    border: none;
+    width: 9vw;
+    height: 3vh;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.buttonForgot:hover {
+    border: var(--color-grey-3) 1px solid;
 }
 
-.loginButton {
-    border: 1px white solid;
-}
 
 .buttonLogin {
-    background-color: var(--color-grey-5);
+    background-color: var(--color-grey-4);
+    width: 22vw;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 9vw;
+    margin-top: 1vh;
+}
+.buttonLogin:hover {
+    border: var(--color-grey-3) 1px solid;
+}
+
+.modalContainer {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recoverPassword {
+    border: solid 1px white;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.exitButton {
+    margin-top: 2vh;
+    margin-left: 26vw;
+    width: 3vw;
+    height: 5vh;
+    cursor: pointer;
+    background-color: var(--color-grey-4);
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.exitButton:hover{
+    border: 1px red solid;
+    color: red;
+
+}
+
+.recoverTitle {
+    margin-top: 8vh;
+    margin-left: 8vw;
+}
+
+.recoverDescription {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.recoverEmail {
+    margin-top: 2vh;
+    margin-left: 5vw;
+}
+
+#recovEmail {
+    height: 5vh;
+    width: 20vw;
+    padding-left: 1vw;
+}
+
+.recoverButton {
+    margin-top: 1vh;
+    margin-left: 10vw;
+}
+
+.recovButton {
+    width: 10vw;
+    height: 5vh;
+    cursor: pointer;
+    border: none;
+    background-color: var(--color-grey-4);
+    border-radius: 6px;
+}
+.recovButton:hover {
+    border: 1px black solid;
 }
